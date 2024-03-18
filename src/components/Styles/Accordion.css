@@ -1,0 +1,54 @@
+.Accordian-Container{
+    border: 1px solid #dcdcdc;
+    padding: 20px 40px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.Accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.Accordion KeyboardArrowUpIcon{
+    color: #2a2aff;
+}
+.Accordion-Heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Accordion-Heading .Accordion-Title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #2a2aff;
+}
+
+.Accordion-Body{
+    background-color: #f8f8ff;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.Accordion-Body-Header{
+    cursor: pointer;
+}
+
+.Accordion-Content-Header{
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.Accordion-Active{
+    max-height:1000px;
+    transition: max-height 0.4s ease-in-out;
+};
+
+
+

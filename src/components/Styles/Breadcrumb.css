@@ -1,0 +1,102 @@
+.Header-Container{
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto Mono", monospace;
+    position: relative;
+}
+
+.Hamburger-Menu-Icon{
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+
+
+.Dropdown-Menu-Container ul{
+    position: absolute;
+    top: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    list-style: none;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    align-items: center;
+}
+
+.Logo-Container{
+    display: flex;
+    padding: 20px 40px;
+    gap: 10px;
+    align-items: center;
+}
+
+.Logo-Image-Container{
+    width: 50px;
+    height: 60px;
+}
+
+.IPS-Logo{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+}
+
+.Header-Title{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 800;
+    color: #332daa;
+}
+.Header-Sub-Title{
+    margin: 0;
+    font-weight: 300;
+}
+
+.Nav-Container{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    background-color: #332daa;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nav-Items{
+    list-style: none;
+    color: #fff;
+    display: flex;
+    gap: 20%;
+    text-transform: uppercase;
+}
+
+.Social-Handlers{
+    list-style: none;
+    display: flex;
+    padding-right: 40px;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.Social-Handlers li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:1200px) {
+     .Nav-Container{
+        display: none;
+     }
+}
+
+@media screen and (max-width:900px) {
+    
+}
+
+@media screen and (max-width:600px) {
+    
+}
