@@ -1,0 +1,46 @@
+.accordion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.accordion KeyboardArrowUpIcon{
+    color: #2a2aff;
+}
+.accordion-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-heading .accordion-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.accordion-body{
+    background-color: #dedede;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.4s ease-in-out;
+    /* padding: 10px; */
+    border-radius: 5px;
+}
+
+.accordion-body-Header{
+    cursor: pointer;
+}
+
+.accordion-content-header{
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.accordion-active{
+    max-height:1000px;
+    transition: max-height 0.4s ease-in-out;
+}
+
+.accordion-content-text{
+    padding: 10px;
+}
